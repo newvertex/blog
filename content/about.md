@@ -1,7 +1,7 @@
 ---
 title: "درباره من!"
 date: 2020-11-28T13:58:08+03:30
-draft: true
+draft: false
 comments: false
 showToc: false
 cover:

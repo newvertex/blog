@@ -1,7 +1,7 @@
 ---
 title: "سلام دنیا!"
 date: 2020-11-29T14:02:42+03:30
-draft: true
+draft: false
 comments: true
 showToc: false
 TocOpen: false
