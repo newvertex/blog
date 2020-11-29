@@ -1,0 +1,113 @@
+baseURL: "https://newvertex.ir"
+title: "newvertex"
+languageCode: "fa-ir"
+defaultContentLanguage: fa
+theme: "hugo-PaperMod"
+paginate: 8
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+languages:
+  fa:
+    languageName: "Farsi"
+    languagedirection: rtl
+    weight: 1
+    description: "یک علاقه‌مند به برنامه نویسی بازی های ویدیویی ، همیشه درحال یادگیری!"
+    copyright: "&#8206;&copy; 2020 [newvertex](/)"
+    menu:
+      main:
+        - name: "تگ‌ها"
+          url: "/tags"
+          weight: 1
+        - name: "آرشیو"
+          url: "/archive"
+          weight: 2
+        - name: "من!"
+          url: "/about"
+          weight: 3
+    homeInfoParams:
+      Title: "newvertex"
+      Content: "یک علاقه‌مند به برنامه نویسی بازی های ویدیویی ، همیشه درحال یادگیری! \U0001F9D9"
+    profileMode:
+      enabled: false # needs to be explicitly set
+      title: "newvertex"
+      subtitle: "یک علاقه‌مند به برنامه نویسی بازی های ویدیویی ، همیشه درحال یادگیری! \U0001F9D9"
+      imageUrl: "https://github.com/newvertex.png" # optional
+      imageTitle: "newvertex" # optional
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+      buttons:
+        - name: بلاگ
+          url: posts
+        - name: تگ‌ها
+          url: tags
+
+  en:
+    languageName: "English"
+    weight: 2
+    description: "Interested in video game programming, always learning!"
+    ShowReadingTime: true
+    # menu:
+    #   main:
+    #     - name: "Tags"
+    #       url: "/tags"
+    #       weight: 1
+    #     - name: "Archive"
+    #       url: "/archive"
+    #       weight: 2
+    #     - name: "Me!"
+    #       url: "/about"
+    #       weight: 3
+    homeInfoParams:
+      Title: "newvertex"
+      Content: "Interested in video game programming, always learning! \U0001F9D9"
+    profileMode:
+      enabled: true # needs to be explicitly set
+      title: "newvertex"
+      subtitle: "Interested in video game programming, always learning! \U0001F9D9"
+      imageUrl: "https://github.com/newvertex.png"
+      imageTitle: "newvertex"
+      imageWidth: 120 # custom size
+      imageHeight: 120 # custom size
+      # buttons:
+      #   - name: Blog
+      #     url: posts
+      #   - name: Tags
+      #     url: tags
+
+params:
+  env: production
+  title: newvertex
+  author: newvertex
+
+  images: "uploads/gameover.png"
+
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle: false
+  disableSpecial1stPost: false
+
+  cover:
+    responsiveImages: true
+    linkFullImages: false
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/newvertex"
+    - name: github
+      url: "https://github.com/newvertex"
+    - name: instagram
+      url: "https://instagram.com/newvertex_"
+    - name: youtube
+      url: "https://www.youtube.com/channel/UCiU-c6d_Ul0p6_Rx40NHo9g"
+    - name: telegram
+      url: "https://t.me/newvertex"
